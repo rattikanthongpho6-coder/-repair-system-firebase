@@ -33,7 +33,21 @@
 </head>
 
 <body>
-
+<script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.x.x/firebase-app.js";
+      
+      // นำโค้ด const firebaseConfig = { ... } ที่ก๊อปปี้มาจากหน้าเว็บ Firebase มาวางทับตรงนี้
+      const firebaseConfig = {
+  apiKey: "AIzaSyDsmREtKQtUTzYCVfY7_35kPgyY7vzl-4A",
+  authDomain: "rattikan-256ff.firebaseapp.com",
+  projectId: "rattikan-256ff",
+  storageBucket: "rattikan-256ff.firebasestorage.app",
+  messagingSenderId: "312025284104",
+  appId: "1:312025284104:web:2bade085b32f3519725bbd",
+  measurementId: "G-FF6916RGEX"
+};
+      const app = initializeApp(firebaseConfig);
+    </script>
 </body>
 
 </html>
